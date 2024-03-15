@@ -1,22 +1,26 @@
+import java.io.Serializable;
 
-public class ContoCorrente {
+public class ContoCorrente implements Serializable {
 	
 	
 	// definiamo la proprietà saldo dell'oggetto
 	public int saldo;
-	private int numero;
-	private static int numeroAssegnato = 100;
+	public int numero;
+	
 	public static double tasso = 2;
 	
 	// definiamo il costruttore
 	
-	 public ContoCorrente(int saldo) {
+	 public ContoCorrente(int saldo, int numero) {
 		 
 		 this.saldo = saldo;
 		 this.numero = numero;
-		 this.numeroAssegnato++;
-		 this.numero = numeroAssegnato;
+		 
+		 this.numero = numero;
 	 }
+
+		
+	
 
 	// andiamo a definire il metodo preleva
 	 public void preleva(int somma) {

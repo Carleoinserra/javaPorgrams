@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Bancomat {
+public class Bancomat implements Serializable {
  
 	
 	ArrayList<ContoCorrente> lista;
@@ -73,6 +74,10 @@ public void versamento(int numero, int importo) {
 	}
 }
 	
+			
+			
+
+	}
 	
 	
-}
+
