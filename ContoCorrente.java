@@ -3,14 +3,14 @@ public class ContoCorrente {
 	
 	
 	// definiamo la proprietà saldo dell'oggetto
-	public static int saldo;
+	public int saldo;
 	private int numero;
 	private static int numeroAssegnato = 100;
 	public static double tasso = 2;
 	
 	// definiamo il costruttore
 	
-	 public ContoCorrente() {
+	 public ContoCorrente(int saldo) {
 		 
 		 this.saldo = saldo;
 		 this.numero = numero;
