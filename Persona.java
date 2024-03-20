@@ -13,7 +13,7 @@ public class Persona {
 	}
 	@Override
 	public String toString() {
-		return "Persona [nome=" + nome + ", indirizzo=" + indirizzo + "]";
+		return "[nome=" + nome + ", indirizzo=" + indirizzo + "]";
 	}
 	public void setIndirizzo(String indirizzo) {
 		

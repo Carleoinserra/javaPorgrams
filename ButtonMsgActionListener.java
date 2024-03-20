@@ -17,9 +17,9 @@ public class ButtonMsgActionListener implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		String utenti = null;
+		String utenti = "";
 		for (int i = 0; i < f1.lista.size(); i++) {
-			utenti += f1.lista.get(i);
+			utenti += f1.lista.get(i) + "\n";
 		}
 		
 		
